@@ -22,3 +22,9 @@
 </div>
 
 ### Logos
+<div>
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/mechanical.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/electrical.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/programming.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/project_management.png" height=100 />
+</div>
