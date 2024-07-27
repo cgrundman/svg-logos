@@ -1,5 +1,7 @@
 # SVG Logos
 
+This repository is a storage space for holding basic html encodings of svg images. 
+
 ### Basic Images
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Basic Shapes/circle.png" height=100 />
