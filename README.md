@@ -2,7 +2,7 @@
 
 This repository is a storage space for holding basic html encodings of svg images. 
 
-### Basic Images
+## Basic Images
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Basic Shapes/circle.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Basic Shapes/ellipse.png" height=100 />
@@ -13,7 +13,7 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Basic Shapes/rectangle.png" height=100 />
 </div>
 
-### Christmas Images
+## Christmas Images
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Christmas/christmas_tree.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Christmas/gingerbread_man.png" height=100 />
@@ -23,7 +23,7 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Christmas/winter_wonderland.png" height=100 />
 </div>
 
-### Logos
+## Logos
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/mechanical.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/electrical.png" height=100 />
