@@ -1,6 +1,6 @@
 # SVG Logos
 
-This repository is a storage space for holding basic html encodings of svg images. 
+This repository is a storage space for holding basic html encodings of svg images.
 
 ## Basic Images
 <div>
@@ -23,7 +23,7 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Christmas/winter_wonderland.png" height=100 />
 </div>
 
-## Logos
+## Personal Logos
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/mechanical.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/electrical.png" height=100 />
