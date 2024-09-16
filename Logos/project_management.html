@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html>
   <svg width="800px" height="800px" viewBox="0 0 400 400">
+    <defs>
+      <g id="large_circle">
+        <circle cx="200" cy="200" r="16"  fill="#ed9e49" />
+        <circle cx="200" cy="200" r="8" fill="white" />
+      </g>
+      <g id="med_circle">
+        <circle cx="200" cy="200" r="12"  fill="#ed9e49" />
+        <circle cx="200" cy="200" r="6" fill="white" />
+      </g>
+      <g id="small_circle">
+        <circle cx="200" cy="200" r="8"  fill="#ed9e49" />
+        <circle cx="200" cy="200" r="4" fill="white" />
+      </g>
+    </defs>
     <g>
       <g>
-        <circle id="background" cx="200" cy="200" r="200" fill="#cc7700" />
+        <circle id="background" cx="200" cy="200" r="200" fill="#594b3e" />
       </g>
     </g>
     <g>
       <g>
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(180, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(220, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(260, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(300, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(340, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(20, 200, 200)" />
-        <circle cx="200" cy="150" r="8" fill="white" transform="rotate(60, 200, 200)" />
+        <use href="#small_circle" x="0" y="50"/>
+        <use href="#small_circle" x="0" y="50" transform="rotate(40, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(40, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(80, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(120, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(160, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(200, 200, 200)" />
+        <use href="#small_circle" x="0" y="50" transform="rotate(240, 200, 200)" />
       </g>
     </g>
     <g>
       <g>
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(0, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(25, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(50, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(75, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(100, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(125, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(150, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(175, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(200, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(225, 200, 200)" />
-        <circle cx="200" cy="100" r="12" fill="white" transform="rotate(250, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(25, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(50, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(75, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(100, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(125, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(150, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(175, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(200, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(225, 200, 200)" />
+        <use href="#med_circle" x="0" y="-100" transform="rotate(250, 200, 200)" />
       </g>
     </g>
     <g>
       <g>
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(100, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(120, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(140, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(160, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(180, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(200, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(220, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(240, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(260, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(280, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(300, 200, 200)" />
-        <circle cx="200" cy="50" r="16" fill="white" transform="rotate(320, 200, 200)" />
+        <use href="#large_circle" x="0" y="150"/>
+        <use href="#large_circle" x="0" y="150" transform="rotate(20, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(40, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(60, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(80, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(100, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(120, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(140, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(-20, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(-40, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(-60, 200, 200)" />
+        <use href="#large_circle" x="0" y="150" transform="rotate(-80, 200, 200)" />
       </g>
     </g>
   </svg> 
