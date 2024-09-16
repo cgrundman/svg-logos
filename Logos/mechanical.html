@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html>
   <svg width="800px" height="800px" viewBox="0 0 400 400">
-    <defs>
-      <g id="sungear">
-        <circle cx="200" cy="125" r="12" fill="white" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(30, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(60, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(90, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(120, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(150, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(180, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(210, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(240, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(270, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(300, 200, 200)" />
-        <circle cx="200" cy="125" r="12" fill="white" transform="rotate(330, 200, 200)" />
-        <circle cx="200" cy="200" r="70" stroke="white" stroke-width="10" fill="#00611c" />
-      </g>
-      <g id="plangear">
-        <circle cx="200" cy="165" r="12" fill="white" />
-        <circle cx="200" cy="165" r="12" fill="white" transform="rotate(60, 200, 200)" />
-        <circle cx="200" cy="165" r="12" fill="white" transform="rotate(120, 200, 200)" />
-        <circle cx="200" cy="165" r="12" fill="white" transform="rotate(180, 200, 200)" />
-        <circle cx="200" cy="165" r="12" fill="white" transform="rotate(240, 200, 200)" />
-        <circle cx="200" cy="165" r="12" fill="white" transform="rotate(300, 200, 200)" />
-        <circle cx="200" cy="200" r="30" stroke="white" stroke-width="10" fill="#00611c" />
+     <defs>
+      <g id="node">
+        <circle cx="0" cy="0" r="18"  fill="#0e7eb5" />
+        <circle cx="0" cy="0" r="14" fill="white" />
+        <circle cx="0" cy="0" r="10" fill="#0e7eb5" />
+        <circle cx="0" cy="0" r="6" fill="#384247" />
+        <circle cx="45" cy="0" r="18"  fill="#0e7eb5" />
+        <circle cx="45" cy="0" r="14" fill="white" />
+        <circle cx="45" cy="0" r="10" fill="#0e7eb5" />
+        <circle cx="45" cy="0" r="6" fill="#384247" />
+        <circle cx="-45" cy="0" r="18"  fill="#0e7eb5" />
+        <circle cx="-45" cy="0" r="14" fill="white" />
+        <circle cx="-45" cy="0" r="10" fill="#0e7eb5" />
+        <circle cx="-45" cy="0" r="6" fill="#384247" />
       </g>
     </defs>
-  
-    <circle id="background" cx="200" cy="200" r="200" fill="#00611c" />
-  
-    <use href="#sungear" x="0" y="0" />
-    <use href="#plangear" x="-130" y="0" />
-    <use href="#plangear" x="-130" y="0" transform="rotate(120, 200, 200)" />
-    <use href="#plangear" x="-130" y="0" transform="rotate(240, 200, 200)" />
-    
+    <g>
+      <g>
+        <circle id="background" cx="200" cy="200" r="200" fill="#384247"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polyline points="245 105 245 60 340 155 295 155" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="155 105 155 80 176 56 176 20" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="105 155 80 155 56 176 20 176" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="105 245 80 245 56 224 20 224" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="200 295 200 310 176 340 176 380" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="245 295 245 310 197 370 197 380" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="295 245 310 245 360 295" stroke="#0e7eb5" fill="transparent" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        <line x1="200" y1="105" x2="200" y2="20" stroke="#0e7eb5" stroke-width="12" stroke-linecap="round"/>
+        <line x1="105" y1="200" x2="20" y2="200" stroke="#0e7eb5" stroke-width="12" stroke-linecap="round"/>
+        <line x1="155" y1="295" x2="155" y2="380" stroke="#0e7eb5" stroke-width="12" stroke-linecap="round"/>
+        <line x1="295" y1="200" x2="380" y2="200" stroke="#0e7eb5" stroke-width="12" stroke-linecap="round"/>
+        <use href="#node" x="200" y="120" />
+        <use href="#node" x="200" y="120" transform="rotate(90, 200, 200)" />
+        <use href="#node" x="200" y="280" />
+        <use href="#node" x="200" y="120" transform="rotate(270, 200, 200)" />
+        <polyline points="245 107 245 60 340 155 293 155" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="155 107 155 80 176 56 176 20" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="107 155 80 155 56 176 20 176" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="107 245 80 245 56 224 20 224" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="200 293 200 310 176 340 176 380" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="245 293 245 310 197 370 197 380" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="293 245 310 245 360 295" stroke="white" fill="transparent" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+        <line x1="200" y1="107" x2="200" y2="20" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <line x1="105" y1="200" x2="20" y2="200" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <line x1="155" y1="293" x2="155" y2="380" stroke="white" stroke-width="5" stroke-linecap="round"/>
+        <line x1="293" y1="200" x2="380" y2="200" stroke="white" stroke-width="5" stroke-linecap="round"/>
+      </g>
+    </g>
   </svg>
 </html>
