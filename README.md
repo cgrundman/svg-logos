@@ -32,6 +32,7 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/leaf_disease.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/computer_vision.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/ml_stethoscope.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/ct.png" height=100 />
 </div>
 
 ## Avatars
