@@ -30,6 +30,21 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/programming.png" height=100 />
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/project_management.png" height=100 />
 </div>
+<div>
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/leaf_disease.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/computer_vision.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/ml_stethoscope.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/ct.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/ecg.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/nmr.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/isp.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/morse.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/travel_map.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/smart_transcribe.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/lego.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/esp.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/machinery.png" height=100 />
+</div>
 
 ## Avatars
 <div>
