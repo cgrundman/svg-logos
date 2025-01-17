@@ -46,6 +46,12 @@ This repository is a storage space for holding basic html encodings of svg image
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Logos/machinery.png" height=100 />
 </div>
 
+## GUI Buttons and Graphics
+<div>
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/button_unpressed.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/button_pressed.png" height=100 />
+</div>
+
 ## Avatars
 <div>
   <img src="https://github.com/cgrundman/svg-logos/blob/main/Avatars/professional.png" height=100 />
