@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="800px" y="800px" viewBox="0 0 400 400">
+  <defs>
+    <g id="Rotor">
+      <path d="M -20 0 A 40 20 0 0 0 20 40 A 40 20 0 0 0 -20 0" stroke="#aaa" stroke-width="12" fill="transparent" stroke-linecap="round"/>
+      <path d="M -20 0 A 40 20 0 0 0 20 40 A 40 20 0 0 0 -20 0" stroke="#fff" stroke-width="5" fill="transparent" stroke-linecap="round"/>
+    </g>
+    <g id="Frame">
+      <path d="M -70 0 L -45 0 M 0 -40 L 0 -30 M 70 0 L 45 0 M 0 40 L 0 30 M -40 15 l 60 -40 m 0 0 l 15 10 m 0 0 l -60 40 m 0 0 l -15 -10" stroke="#aaa" stroke-width="12" fill="transparent" stroke-linecap="round" />
+      <path d="M -70 0 L -45 0 M 0 -40 L 0 -30 M 70 0 L 45 0 M 0 40 L 0 30 M -40 15 l 60 -40 m 0 0 l 15 10 m 0 0 l -60 40 m 0 0 l -15 -10" stroke="#fff" stroke-width="5" fill="transparent" stroke-linecap="round" />
+      <use href="#Rotor" x="-130" y="-20"/>
+      <use href="#Rotor" x="130" y="-20"/>
+      <use href="#Rotor" x="0" y="-100"/>
+      <use href="#Rotor" x="0" y="60"/>
+    </g>
+    <g id="Laser">
+        <path d="M 0 0 l -100 63 M 0 0 l -120 45 M 0 0 l -78 82" stroke="#aaa" stroke-width="12" fill="transparent" stroke-linecap="round" />
+        <path d="M 0 0 l -100 63 M 0 0 l -120 45 M 0 0 l -78 82" stroke="#fff" stroke-width="5" fill="transparent" stroke-linecap="round" />
+    </g>
+  </defs>
+  <circle id="background" cx="200" cy="200" r="200" fill="#384247"/>
+  <use href="#Frame" x="200" y="180"/>
+  <use href="#Laser" x="155" y="210"/>
+</svg>
