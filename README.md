@@ -49,8 +49,21 @@ This repository is a storage space for holding basic html encodings of svg image
 
 ## GUI Buttons and Graphics
 <div>
-  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/button_unpressed.png" height=100 />
-  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/button_pressed.png" height=100 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/close.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/reset.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/start.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/stop.png" height=50 />
+</div>
+
+<div>
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/toggle_on.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/toggle_off.png" height=50 />
+</div>
+
+<div>
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/minus1.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/reset_blue.png" height=50 />
+  <img src="https://github.com/cgrundman/svg-logos/blob/main/GUI/plus1.png" height=50 />
 </div>
 
 ## Avatars
